@@ -1,4 +1,4 @@
-@import '../styles/variables.scss';
+@use '../styles/variables' as *;
 
 .landing {
   width: 100%;
@@ -141,3 +141,4 @@
   line-height: $line-height-normal;
   margin: 0;
 }
+

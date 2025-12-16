@@ -1,4 +1,4 @@
-@import '../styles/variables.scss';
+@use '../styles/variables' as *;
 
 .layout {
   display: flex;
@@ -26,3 +26,4 @@
   margin: 0 auto;
   width: 100%;
 }
+

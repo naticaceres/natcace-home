@@ -1,4 +1,4 @@
-@import '../../styles/variables.scss';
+@use '../../styles/variables' as *;
 
 .header {
   position: sticky;
@@ -85,3 +85,4 @@
     padding: $spacing-xs $spacing-sm;
   }
 }
+

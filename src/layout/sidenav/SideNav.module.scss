@@ -1,4 +1,4 @@
-@import '../../styles/variables.scss';
+@use '../../styles/variables' as *;
 
 .sideNav {
   position: fixed;
@@ -106,3 +106,4 @@
     }
   }
 }
+
