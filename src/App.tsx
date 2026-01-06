@@ -1,11 +1,11 @@
-import { Layout } from './layout/Layout';
-import { Landing } from './pages/Landing';
-import './App.css';
+import { Layout } from "./layout/Layout";
+import "./App.css";
+import { Outlet } from "react-router";
 
 function App() {
   return (
     <Layout>
-      <Landing />
+      <Outlet />
     </Layout>
   );
 }

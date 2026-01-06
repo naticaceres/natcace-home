@@ -7,7 +7,7 @@ export function Footer() {
     <footer className={styles.footer}>
       <div className={styles.content}>
         <p className={styles.copyright}>
-          © {currentYear} natcace. All rights reserved.
+          © {currentYear} Made with 🐈‍⬛ by natcace.
         </p>
         <ul className={styles.socialLinks}>
           <li className={styles.socialItem}>

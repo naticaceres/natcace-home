@@ -11,13 +11,8 @@ export function Header() {
         <nav>
           <ul className={styles.nav}>
             <li className={styles.navItem}>
-              <a href="#about" className={styles.navLink}>
+              <a href="/" className={styles.navLink}>
                 About
-              </a>
-            </li>
-            <li className={styles.navItem}>
-              <a href="#projects" className={styles.navLink}>
-                Projects
               </a>
             </li>
             <li className={styles.navItem}>
