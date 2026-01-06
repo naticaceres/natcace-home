@@ -1,4 +1,5 @@
-import styles from './Header.module.scss';
+import { NavLink } from "react-router";
+import styles from "./Header.module.scss";
 
 export function Header() {
   return (
@@ -20,9 +21,9 @@ export function Header() {
               </a>
             </li>
             <li className={styles.navItem}>
-              <a href="#blog" className={styles.navLink}>
+              <NavLink to="/blog" className={styles.navLink}>
                 Blog
-              </a>
+              </NavLink>
             </li>
             <li className={styles.navItem}>
               <a href="#contact" className={styles.navLink}>

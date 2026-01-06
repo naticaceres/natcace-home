@@ -1,8 +1,8 @@
-import { ReactNode } from 'react';
-import { Header } from './header/Header';
-import { SideNav } from './sidenav/SideNav';
-import { Footer } from './footer/Footer';
-import styles from './Layout.module.scss';
+import type { ReactNode } from "react";
+import { Header } from "./header/Header";
+import { SideNav } from "./sidenav/SideNav";
+import { Footer } from "./footer/Footer";
+import styles from "./Layout.module.scss";
 
 interface LayoutProps {
   children: ReactNode;
