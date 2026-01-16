@@ -38,6 +38,16 @@
   }
 }
 
+.logoImage {
+  width: 20px;
+}
+
+.logoTipo {
+  display: flex;
+  align-items: center;
+  gap: $spacing-xs;
+}
+
 .nav {
   display: flex;
   align-items: center;
