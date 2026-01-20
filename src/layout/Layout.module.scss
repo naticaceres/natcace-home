@@ -8,17 +8,12 @@
 }
 
 .main {
-  flex: 1;
-  margin-left: $sidebar-width;
+  flex: 1;  
   margin-top: $header-height;
   margin-bottom: $footer-height;
   padding: $spacing-xl;
   min-height: calc(100vh - #{$header-height} - #{$footer-height});
   transition: margin-left $transition-base;
-
-  @media (max-width: $breakpoint-lg) {
-    margin-left: 0;
-  }
 }
 
 .content {
