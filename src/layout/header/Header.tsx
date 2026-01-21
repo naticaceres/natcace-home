@@ -18,13 +18,13 @@ export function Header() {
 
         <nav>
           <ul className={styles.nav}>
-            <li className={styles.navItem}>
+            {/* <li className={styles.navItem}>
               <NavLink to="/" className={styles.navLink}>
                 About
               </NavLink>
-            </li>
+            </li> */}
             <li className={styles.navItem}>
-              <NavLink to="/blog" className={styles.navLink}>
+              <NavLink to="/" className={styles.navLink}>
                 Blog
               </NavLink>
             </li>
