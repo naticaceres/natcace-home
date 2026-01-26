@@ -1,0 +1,412 @@
+@use '../../styles/variables' as *;
+
+.page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-3xl;
+  padding: 3.5rem $spacing-lg 5rem;
+  background: linear-gradient(180deg, #f8faff 0%, #ffffff 45%, #f7f6ff 100%);
+  color: $text-primary;
+  overflow: hidden;
+}
+
+.hero {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: $spacing-2xl;
+  align-items: center;
+  padding: 3rem $spacing-2xl;
+  border-radius: 32px;
+  background: linear-gradient(135deg, #ffffff 0%, #f7f7ff 55%, #fff5f0 100%);
+  box-shadow: 0 30px 60px rgba(17, 23, 43, 0.08);
+  border: 1px solid rgba(120, 132, 180, 0.15);
+  overflow: hidden;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+}
+
+.kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: $font-size-xs;
+  color: $text-secondary;
+  font-weight: $font-weight-semibold;
+}
+
+.title {
+  font-size: clamp(2.6rem, 4vw, 3.6rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  font-size: $font-size-lg;
+  color: $text-secondary;
+  max-width: 520px;
+}
+
+.heroMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-sm;
+  font-size: $font-size-sm;
+  color: $text-muted;
+}
+
+.heroActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-sm;
+  margin-top: $spacing-sm;
+}
+
+.primaryButton,
+.secondaryButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 1.4rem;
+  border-radius: 999px;
+  font-weight: $font-weight-semibold;
+  transition: transform $transition-fast, box-shadow $transition-fast;
+}
+
+.primaryButton {
+  background: linear-gradient(135deg, #ff8a4c, #ffb020);
+  color: $color-white;
+  box-shadow: 0 12px 24px rgba(255, 140, 76, 0.35);
+}
+
+.secondaryButton {
+  background: $color-white;
+  border: 1px solid rgba(120, 132, 180, 0.25);
+  color: $text-primary;
+}
+
+.primaryButton:hover,
+.secondaryButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 28px rgba(20, 25, 45, 0.12);
+}
+
+.profileLinks {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+  font-size: $font-size-sm;
+  color: $text-secondary;
+}
+
+.heroCard {
+  position: relative;
+  z-index: 2;
+  padding: $spacing-xl;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(120, 132, 180, 0.18);
+  box-shadow: 0 18px 30px rgba(17, 23, 43, 0.1);
+  animation: float 6s ease-in-out infinite;
+}
+
+.heroCardTop {
+  display: flex;
+  gap: $spacing-sm;
+  flex-wrap: wrap;
+  font-size: $font-size-xs;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: $text-muted;
+}
+
+.heroCardBody {
+  margin-top: $spacing-md;
+}
+
+.heroCardBody h2 {
+  font-size: $font-size-xl;
+  margin-bottom: $spacing-sm;
+}
+
+.heroCardBody ul {
+  display: grid;
+  gap: $spacing-sm;
+  padding-left: $spacing-lg;
+  list-style: disc;
+  color: $text-secondary;
+}
+
+.glowOrb,
+.glowOrbAlt {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  opacity: 0.6;
+  filter: blur(12px);
+  animation: orbPulse 10s ease-in-out infinite;
+}
+
+.glowOrb {
+  top: -60px;
+  right: -40px;
+  background: radial-gradient(circle, rgba(255, 184, 108, 0.9), rgba(255, 184, 108, 0));
+}
+
+.glowOrbAlt {
+  bottom: -80px;
+  left: -40px;
+  background: radial-gradient(circle, rgba(118, 138, 255, 0.8), rgba(118, 138, 255, 0));
+  animation-delay: 1.6s;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xl;
+}
+
+.sectionHeader h2 {
+  font-size: $font-size-2xl;
+  margin-bottom: $spacing-sm;
+}
+
+.sectionHeader p {
+  color: $text-secondary;
+  max-width: 560px;
+}
+
+.skillGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: $spacing-lg;
+}
+
+.skillCard {
+  padding: $spacing-lg;
+  border-radius: 20px;
+  background: $color-white;
+  border: 1px solid rgba(120, 132, 180, 0.15);
+  box-shadow: $shadow-md;
+  transition: transform $transition-base, box-shadow $transition-base;
+}
+
+.skillCard:hover {
+  transform: translateY(-6px);
+  box-shadow: $shadow-xl;
+}
+
+.skillCard h3 {
+  margin-bottom: $spacing-sm;
+}
+
+.skillCard p {
+  color: $text-secondary;
+  font-size: $font-size-sm;
+  line-height: $line-height-relaxed;
+}
+
+.timeline {
+  display: grid;
+  gap: $spacing-xl;
+}
+
+.timelineCard {
+  position: relative;
+  padding: $spacing-xl;
+  border-radius: 24px;
+  background: $color-white;
+  border: 1px solid rgba(120, 132, 180, 0.18);
+  box-shadow: $shadow-lg;
+  animation: fadeUp 0.8s ease both;
+}
+
+.timelineHeader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: $spacing-sm;
+  margin-bottom: $spacing-md;
+}
+
+.timelineHeader h3 {
+  font-size: $font-size-lg;
+}
+
+.company {
+  color: $text-secondary;
+  font-size: $font-size-sm;
+}
+
+.period {
+  font-size: $font-size-sm;
+  font-weight: $font-weight-semibold;
+  color: $text-muted;
+}
+
+.timelineCard ul {
+  display: grid;
+  gap: $spacing-sm;
+  padding-left: $spacing-lg;
+  list-style: disc;
+  color: $text-secondary;
+}
+
+.stack {
+  margin-top: $spacing-md;
+  color: $text-secondary;
+  font-size: $font-size-sm;
+}
+
+.simpleList {
+  display: grid;
+  gap: $spacing-sm;
+  padding-left: $spacing-lg;
+  list-style: disc;
+  color: $text-secondary;
+}
+
+.sectionSplit {
+  display: grid;
+  gap: $spacing-xl;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.sectionCard {
+  padding: $spacing-xl;
+  border-radius: 24px;
+  background: linear-gradient(140deg, #ffffff 0%, #f7f8ff 100%);
+  border: 1px solid rgba(120, 132, 180, 0.15);
+  box-shadow: $shadow-md;
+}
+
+.sectionCard ul {
+  display: grid;
+  gap: $spacing-md;
+  margin-top: $spacing-md;
+  color: $text-secondary;
+}
+
+.sectionCard h3 {
+  font-size: $font-size-base;
+  color: $text-primary;
+}
+
+.sectionCard em {
+  display: block;
+  margin-top: $spacing-xs;
+  font-style: normal;
+  color: $text-muted;
+  font-size: $font-size-sm;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes orbPulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .page {
+    padding: 2.5rem $spacing-md 4rem;
+  }
+
+  .hero {
+    padding: 2.5rem $spacing-lg;
+  }
+
+  .heroActions {
+    width: 100%;
+  }
+
+  .primaryButton,
+  .secondaryButton {
+    flex: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .heroCard,
+  .timelineCard,
+  .skillCard,
+  .glowOrb,
+  .glowOrbAlt {
+    animation: none;
+  }
+
+  .primaryButton,
+  .secondaryButton,
+  .skillCard {
+    transition: none;
+  }
+}
+
+@media print {
+  :global(body) {
+    background: #ffffff;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  :global(header),
+  :global(footer) {
+    display: none !important;
+  }
+
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .page {
+    padding: 0;
+    gap: $spacing-xl;
+    background: #ffffff;
+  }
+
+  .hero,
+  .skillCard,
+  .timelineCard,
+  .sectionCard {
+    box-shadow: none;
+  }
+
+  .glowOrb,
+  .glowOrbAlt,
+  .heroActions {
+    display: none;
+  }
+}

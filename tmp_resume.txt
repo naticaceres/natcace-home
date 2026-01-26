@@ -1,0 +1,188 @@
+Natalia Caceres
+Front End Staff Engineer - Technical Lead
++1 647 896 4910 | nataliacaceres91@gmail.com | Toronto, Canada
+
+PROFESSIONAL SUMMARY
+Front End software engineer and technical leader, with 10+ years of experience developing scalable systems for businesses
+of all sizes. Increased code coverage of SAVVYY’s underwriting web app by 60% and helped process and display 5M daily
+data ingests for Seednext over the course of 2 months for their automated tolls software. A caring and committed team
+player that enjoys blogging and engaging with the open source software community in my free time.
+
+TECH STACK
+Front End
+
+Angular 16, Nx 16 micro frontends, Webpack, ESBuild, React 18, HTML, SCSS, Javascript
+
+Back End
+
+C#, .NET microservices, Kafka, ElasticSearch, GraphQL
+
+Data Stores
+
+MySQL, MongoDB, PostgreSQL
+
+Web Servers
+
+Nginx, Google Web Server,Microsoft IIS
+
+Operating Systems
+
+Ubuntu, Mac OS, Windows 11, Windows Server
+
+EXPERIENCE
+SENIOR FRONT END DEVELOPER | QUESTRADE | Toronto, Canada
+Sept 15 2023 – Current
+Job
+Questrade is a Toronto based online brokerage firm that prophesies Canadians with a low cost solution for self-directed
+securities investing through a proprietary trading platform and a managed investing solution. It is Canada’s fastest growing
+online brokerage firm and the #1 rated online brokerage1. It takes pride in its “customer first” approach and leverages a
+broad range of technological tools and resources to provide a plethora of solutions for its customers and workers
+-​ Created and launched a strategy to coordinate its eventually consistent backend implementation with a responsive
+UI.
+-​ Implemented its end to end testing and reporting using cypress, mochawesome and microsoft azure pipelines.
+-​ Led a team of 5 developers and analysts to deliver a feature under a time crunch that enables users to repurpose
+existing applications, while incrementing test coverage and reusability of code.
+-​ Technologies: Javascript, Angular 16, NX, RxJs, Webpack, Azure pipelines, C# and .NET microservices
+
+FRONT END TECH LEAD AND MANAGER | SAVVYY | Toronto, Canada
+Feb 22 2021 – Sept 15 2023
+SAVVYY is a Toronto based enterprise SaaS company, building digital infrastructure for the mortgage industry 2. Created by
+the original technology team at Borrowell (another renowned technology provider in the sector), it provides an end to end
+digital lending platform to assist lenders intelligently and efficiently underwriting and servicing loans. The solution is cloud
+1
+2
+
+“Questrade named one of Canada’s Best Managed Companies for ninth consecutive year.” GlobalNewsWire, March 2020
+“Canadian built next-gen infrastructure for the mortgage lending industry.” savvyy.ai
+
+native and API friendly, developed under the principles of DDD.
+-​ Managed a team of 7 developers of various seniority levels, performed performance evaluations and participated in
+the hiring process of new talent for the team
+-​ Mentored a team of 5 junior and semi senior developers, carried out individual and group tech talks, and worked
+closely to provide technical growth as a group.
+-​ Implemented a testing strategy to replace manual tests incrementing the code coverage from 20% to 60% over the
+course of 2 months using a combined approach of unit and integration tests (using Jest) and end to end tests (using
+Cypress).
+-​ Migrated the authorization and authentication solution to the Oauth 2.0 standard using RBAC policy for the white
+label solution in use by 4 different customers.
+-​ Technologies: Javascript, Angular 15, NX, RxJs, HTML, SCSS, Webpack, Azure pipelines, C# and .NET microservices
+
+FRONT END TECH LEAD, UX DESIGNER | SEEDNEXT | Remote
+2019 – Feb 1 2021
+SeedNext is a startup based in Florida, USA that focuses exclusively on technology3. Its values are operational excellence,
+security, reliability, performance and cost optimization. The company embraced Amazon’s serverless architecture and
+infrastructure as a service to provide fully functional prototypes that solve complex problems to its clients in as little as a
+month. SeedNext takes pride in providing extremely reliable, fast and secure infrastructure with a highly predictable schedule
+of costs.
+-​ Drafted the Critical User Journeys for 3 application prototypes (1 of which was scaled to prod), for a greenhouse
+project using IoT and AI, for a VISA assistant project as a form builder using HTML forms, and for a large tolls
+management and PoS project using Angular Material and web components.
+-​ Closely worked with our UX lead, Business Analyst and Chief Financial Officer to plan, draft and budget proposals
+for clients’ requests that adjust to the time and budget concerns. Prototype and implement the solutions while
+providing statistics and reports about progress and completion of the proposals.
+-​ Engaged in hiring and leading the front end implementation of all the projects in the company.
+-​ Technologies: Javascript, Angular 13, NgRx, Redux, React, NX, RxJs, HTML, SCSS, Amazon Lambda, Amazon QLDB,
+MQTT, ElasticSearch, Kafka, Kibana
+
+FRONT END TECH LEAD | SEAMGROUP - VATES | Remote
+2018 – 2019
+4
+SeamGroup is a consulting company based in Ohio, USA . It is a provider of safety, reliability, maintenance and enterprise
+asset management services intended for the hospitality, food processing and pharmaceutical industries. SeamGroup offers
+services including training and consulting, inspection and assessment, installation and repair and electric vehicle charging
+infrastructure, helping clients to optimize the performance of their most critical energized assets. All of its operations are
+managed by a complex and broad system developed in-house that is used by most of its 350 employees and hundreds of
+contractors. Their software needs to pass critical security and stability audits and comply with IEEE norms to ensure its
+reliability and security.
+-​ Planned, prototyped, designed and implemented a pure web CAD solution to view, comment and edit drawings on
+mobile platforms as well as desktop. The solution was a Progressive Web Application developed using React, Redux,
+D3JS, HTML, CSS and a .NET microservice, while maintaining the ability to work offline and synchronize the changes
+when reconnected.
+-​ Designed, pitched to the C-suite and customers, and implemented an integrated solution that processes 5million
+records daily of toll information, allowing a seamless and non-blocking user experience while browsing, filtering and
+editing the information in a web app and a mobile native script application.
+-​ Technologies: Javascript, React, Redux, Express, D3JS, Webpack, HTML, CSS, .NET framework 4.7.2
+
+SENIOR FRONT END DEVELOPER | OPEN ENGLISH | Buenos Aires, Argentina
+2017 – 2018
+OpenEnglish is an online english school founded in Caracas, Venezuela with technology headquarters in Florida, USA and in
+3
+4
+
+“The startup accelerator focused exclusively on technology” seednext.io
+“Creating a safer, more reliable world.” seamgroup.com
+
+Buenos Aires, Argentina. The platform had 100 000 students in the spanish speaking world in 20145 and has since expanded
+to provide services to other nationalities in different languages. Their innovative web application is carefully designed and
+prototyped by its dedicated designer, UX, UI and Marketing teams to gracefully provide a smooth learning and teaching
+interface to its thousands of users (both students and teachers) while linking resources from its cloud-based providers and
+providing API integrations to its B2B customers.
+-​ Integrated with their design team to help shape the learning platform and scale their solution to incorporate the
+translations to 3 more languages (Italian, French, Portuguese).
+-​ Implemented animations and transitions to their learning platform, increasing the user permanence by 15% and
+engaging their reward and student tracking features.
+-​ Increased their automated test code base to achieve 90% code coverage in their student portal solution, using
+Karma-Jasmine and protractor.
+-​ Technologies: Javascript, Angular 10, RxJs, HTML, SCSS, CSS, Webpack, Javascript, SQL
+
+OTHER EXPERIENCES
+FULL STACK SEMI SENIOR ENGINEER | SUBWAY FRANCHISEE HEADQUARTERS - CME | Remote
+FULL STACK SEMI SENIOR ENGINEER | KANTAR GROUP - CME | Remote
+​
+FULL STACK ENGINEER | IVISA | Mendoza, Argentina
+​
+​
+​
+​
+​
+​
+JUNIOR DEVELOPER, BUSINESS ANALYST | HOSPITAL ESPAÑOL | Mendoza, Argentina​​
+​
+
+​
+
+2016 – 2018
+2016 – 2017
+2014 – 2016
+2013 – 2014
+
+​
+
+​
+
+2010 – 2017
+
+​
+
+​
+
+2010 – 2010
+
+​
+EDUCATION
+SYSTEMS ENGINEERING (BSE) | Universidad Tecnológica Nacional | Mendoza, Argentina ​
+●​ Incomplete, pending final exams.
+MULTIMEDIA DESIGN (Certificate) | Universidad Champagnat | Mendoza, Argentina​
+​
+
+ADDITIONAL ACTIVITIES
+NGGirls Mentor in NGConf 2022 | NGGirls | Remote - Toronto, Canada
+Videocast co host | Angular Nation, Angular Americas | Remote - Toronto, Canada​
+
+PROFILES
+https://www.linkedin.com/in/natalia-caceres/
+https://github.com/naticaceres
+5
+
+“Online school has 100,00 students, one subject” The wall street journal, June 2014
+
+​ ​
+
+​
+​
+
+​
+2022
+2021 – 2023
+
+

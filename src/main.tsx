@@ -8,6 +8,7 @@ import { Blog } from "./pages/blog/blog.tsx";
 import { Contact } from "./pages/contact/Contact.tsx";
 // import { Intro } from "./pages/intro/Intro.tsx";
 import { Error } from "./pages/error/error.tsx";
+import { Resume } from "./pages/resume/Resume.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById("root")!).render(
           {/* <Route  element={<Landing />} /> */}
           {/* <Route path="/intro" element={<Intro />} /> */}
           <Route index element={<Blog />} />
+          <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/*" element={<Error />} />
         </Route>
