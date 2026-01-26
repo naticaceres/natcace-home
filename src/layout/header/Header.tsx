@@ -29,6 +29,11 @@ export function Header() {
               </NavLink>
             </li>
             <li className={styles.navItem}>
+              <NavLink to="/resume" className={styles.navLink}>
+                Resume
+              </NavLink>
+            </li>
+            <li className={styles.navItem}>
               <NavLink to="/contact" className={styles.navLink}>
                 Contact
               </NavLink>
