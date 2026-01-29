@@ -8,12 +8,13 @@
 }
 
 .main {
-  flex: 1;  
-  margin-top: $header-height;
-  margin-bottom: $footer-height;
-  padding: $spacing-xl;
+  flex: 1;
+  // margin-top: $header-height;
+  // margin-bottom: $footer-height;
+  // padding: $spacing-xl;
   min-height: calc(100vh - #{$header-height} - #{$footer-height});
   transition: margin-left $transition-base;
+  background: linear-gradient(180deg, #f8faff 0%, #ffffff 45%, #f7f6ff 100%);
 }
 
 .content {
@@ -21,4 +22,3 @@
   margin: 0 auto;
   width: 100%;
 }
-
